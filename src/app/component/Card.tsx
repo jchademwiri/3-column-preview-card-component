@@ -28,7 +28,7 @@ const Card = ({
 }: TCard) => {
   return (
     <div
-      className={`px-6 min-h-[400px] py-10 justify-between flex flex-col text-transparentWhite ${bgColor} ${rounded}`}
+      className={`px-6 min-h-[600px] py-10 justify-between flex flex-col text-transparentWhite ${bgColor} ${rounded}`}
     >
       <Image src={picture.icon} alt={picture.alt} />
       <h2 className='uppercase font-bold text-2xl'>{title}</h2>
